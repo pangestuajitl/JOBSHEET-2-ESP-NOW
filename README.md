@@ -1,4 +1,4 @@
-﻿# ESP32_CommProtocolSensor
+﻿# JOBSHEET-2-ESP-NOW_CommProtocolSensor
 
 ESP32 adalah nama dari mikrokontroler yang dirancang oleh perusahaan yang berbasis di Shanghai, China yakni Espressif Systems. ESP32 menawarkan solusi jaringan WiFi dan BLE. ESP32 menggunakan prosesor dual core yang berjalan di instruksi Xtensa LX16. Selain itu, ESP32 telah mendukung protokol komunikasi seperti I2C, UART dan SPI.
 
@@ -15,18 +15,20 @@ ESP32 adalah nama dari mikrokontroler yang dirancang oleh perusahaan yang berbas
 
 **1) ESP32 Capacitive Touch Sensor**
 
-**Contoh**
+**Hasil**
 
 
 https://user-images.githubusercontent.com/41616849/209112987-79b2e3e8-2d4d-4be9-9859-ab05ffb474a3.mp4
 
-Analisa : <br />
-Dari contoh daiatas ESP32 dapat digunakan sebagai Touch Sensor dimana saat kabel jumper disentuh maka akan menghasilkan data pada serial plotter seperti pada video diatas. Ketika sensor(kabel) tidak disentuh nilai pada serial plotter akan tinggi sedangkan saat sensor(kabel) disentuh maka serial plotter akan rendah
+**Analisa :** 
+<br/>
+Berdasarkan hasil diatas, ESP32 dapat digunakan sebagai Touch Sensor dimana saat kabel jumper disentuh maka akan menghasilkan data pada serial plotter. Kemudian, apabila ketika sensor dari kabel tidak disentuh maka nilai pada serial plotter akan tinggi. Sedangkan, kebalikannya saat sensor disentuh maka serial plotter akan rendah.
 
 **Kemudian Buatlah Rangkaian dibawah ini** <br />
 ![image](https://user-images.githubusercontent.com/41616849/209115047-caf5c1ad-eff1-460f-a123-e68a182a7acd.png)  <br />
 
-**Keluaran** <br />
+**Keluaran** 
+<br/>
 a) Lampu LED On saat disentuh dan Off saat tidak disentuh <br />
 
 
